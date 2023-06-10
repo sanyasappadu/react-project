@@ -51,13 +51,14 @@ import IntervalHookCounter from "./hooks/IntervalHookCounter";
 import DataFetching from "./hooks/DataFetching";
 import CounterOne from "./hooks/CounterOne";
 import CounterTwo2 from "./hooks/CounterTwo2";
-import Parentcp from "./components/Parentcp";
+import Practice22 from "./components/Practice22";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Parentcp/>
+        <Practice22/>
+        {/* <Parentcp/> */}
         {/* <CounterOne/> */}
         {/* <CounterTwo2/> */}
         {/* <DataFetching/> */}

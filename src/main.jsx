@@ -1,14 +1,15 @@
 // import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
+import App1 from './App1'
 import './index.css'
-import Todomaking from './components/Todomaking'
-
+import { BrowserRouter } from 'react-router-dom'
+import React from 'react'
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <>
-    <div>
-      {/* <App /> */}
-    <Todomaking/>
-    </div>
-  </>,
+
+  <React.StrictMode>
+    <BrowserRouter>
+      <App1 />
+    </BrowserRouter>
+  </React.StrictMode>
+
 )
